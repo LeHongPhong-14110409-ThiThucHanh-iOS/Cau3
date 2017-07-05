@@ -100,12 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				260B59AE1F0CDC4B00E06BB3 /* AppDelegate.swift */,
-				260B59B21F0CDC4B00E06BB3 /* Main.storyboard */,
 				260B59B51F0CDC4B00E06BB3 /* Assets.xcassets */,
 				260B59B71F0CDC4B00E06BB3 /* LaunchScreen.storyboard */,
 				260B59BA1F0CDC4B00E06BB3 /* Info.plist */,
-				260B59DC1F0CDD0C00E06BB3 /* TableViewController.swift */,
-				260B59DE1F0CDD3F00E06BB3 /* TaskModel.swift */,
+				260B59E21F0CE12F00E06BB3 /* view */,
+				260B59E01F0CE11C00E06BB3 /* controller */,
+				260B59E11F0CE12500E06BB3 /* model */,
 			);
 			path = LeHongPhong_14110409_bai3;
 			sourceTree = "<group>";
@@ -126,6 +126,30 @@
 				260B59D01F0CDC4B00E06BB3 /* Info.plist */,
 			);
 			path = LeHongPhong_14110409_bai3UITests;
+			sourceTree = "<group>";
+		};
+		260B59E01F0CE11C00E06BB3 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				260B59DC1F0CDD0C00E06BB3 /* TableViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		260B59E11F0CE12500E06BB3 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				260B59DE1F0CDD3F00E06BB3 /* TaskModel.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		260B59E21F0CE12F00E06BB3 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				260B59B21F0CDC4B00E06BB3 /* Main.storyboard */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
